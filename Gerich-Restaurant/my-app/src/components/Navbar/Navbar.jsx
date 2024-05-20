@@ -26,7 +26,7 @@ const Navbar = () => {
         <a href="/" className='p__opensans'>Book Table</a>
       </div>
       <div className='app__navbar-smallscreen'>
-        <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
+        <GiHamburgerMenu color="#fff" fontSize={27} className="menu-toggle" onClick={() => setToggleMenu(true)} />
 
         {toggleMenu && (
           <div className='app__navbar-smallscreen_overlay flex_center slide-bottom'>
