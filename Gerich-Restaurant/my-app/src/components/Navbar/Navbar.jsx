@@ -9,6 +9,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
+    <>
     <nav className='app__navbar'>
       <div className='app__navbar-logo'>
         <img src={images.gericht} alt="app__logo" />
@@ -42,6 +43,8 @@ const Navbar = () => {
         )}
       </div>
     </nav>
+      <hr className='navbar-divider' />
+    </>
   );
 };
 
